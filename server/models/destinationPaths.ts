@@ -43,7 +43,7 @@ export class DestinationPaths {
     }
 
     destinationFolder = path.join(strapiPaths.app.root, destinationFolder);
-    this.assertDestinationIsInsideStrapi(destinationFolder, strapiPaths);
+    // this.assertDestinationIsInsideStrapi(destinationFolder, strapiPaths);
 
     destinationFolder = FileHelpers.normalizeWithoutTrailingSeparator(destinationFolder);
     this.assertDestinationIsNotStrapiCoreFolder(destinationFolder, strapiPaths);
